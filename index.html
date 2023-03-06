@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="stylesheet" href="./style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="banner banner1">
+        <div class="bn bn-1-l1 parallax" data-depth="0.01" data-part=".banner1" data-partend=".content1"></div>
+        <div class="bn bn-1-l2 parallax" data-depth="0.6" data-part=".banner1" data-partend=".content1"></div>
+        <div class="bn bn-1-l3 parallax" data-depth="0.8" data-part=".banner1" data-partend=".content1"></div>
+        <div class="bn bn-1-l4 parallax" data-depth="0.1" data-part=".banner1" data-partend=".content1"></div>
+        <div class="mouse-move">
+          <div class="inner-content">
+            <h1 class="main-heading">Parallax <span>Effect</span></h1>
+            <p>Scroll to discover more</p>
+            <p>&#9660;</p>
+          </div>
+        </div>
+      </div>
+      <section class="content content1">
+        <h1>Click to zoom in/out</h1>
+        <p>In the following image, if you click on the character, it will zoom to that particular character and start the conversation.</p>
+      </section>
+      <div class="img-container">
+        <div class="scale-img">
+          <img id="police-office" class="simg" src="./img254.jpg"></img>
+          <div id="conv"></div>
+      </div>
+      </div>
+      <section class="content content2">
+        <h1>Some More Parallax</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, odit eius. Laborum quis iste culpa qui
+          commodi?
+          Doloremque, incidunt deserunt.</p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae dolorem officia placeat sint laborum est
+          velit maiores ab reprehenderit praesentium, dolore iure ad officiis harum necessitatibus sit, tempora labore
+          aliquid.</p>
+      </section>
+      <div class="banner banner2">
+        <div class="bn bn-2-l1 parallax" data-depth="0.5" data-part=".banner2" data-partend=".content2"></div>
+        <div class="bn bn-2-l2 parallax" data-depth="0.6" data-part=".banner2" data-partend=".content2"></div>
+        <div class="bn bn-2-l3 parallax" data-depth="0.0" data-part=".banner2" data-partend=".content2"></div>
+        <div class="bn bn-2-l4 parallax" data-depth="0.4" data-part=".banner2" data-partend=".content2"></div>
+        <div class="bn bn-2-l5 parallax" data-depth="0.2" data-part=".banner2" data-partend=".content2"></div>
+      </div>
+    </div>
+    <script type="module" src="/main.js"></script>
+  </body>
+
+</html>
